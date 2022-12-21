@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:sqlserver://ckp-mssql.database.windows.net:1433;database=ckp-mssql;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
+    url: jdbc:sqlserver://azure-mssql.database.windows.net:1433;database=azure-mssql;encrypt=true;trustServerCertificate=false;hostNameInCertificate=*.database.windows.net;loginTimeout=30;
     username: ckpmssql
     password: Qwertyui@900
   jpa:
